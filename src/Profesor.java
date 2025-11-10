@@ -13,6 +13,6 @@ public class Profesor extends Osoba {
 
     @Override
     public void dohvatiOpisUloge() {
-        System.out.println("Ja sam profesor :\t" + this.firstName + this.lastName);
+        System.out.println("Ja sam profesor :\t" + this.firstName + "\t" + this.lastName);
     }
 }

@@ -8,11 +8,11 @@ public class Student extends Osoba {
 
     @Override
     public void predstavljanje() {
-        System.out.println("Ime je:" + this.firstName + "\t Prezime je:\t" + this.lastName + ",\tDob je :" + this.age + ",\tSpol je:" + this.sex + ",\tGodina studija je:" + this.godinaStudija);
+        System.out.println("Ime je:\t" + this.firstName + "\t Prezime je:\t" + this.lastName + ",\tDob je :" + this.age + ",\tSpol je:" + this.sex + ",\tGodina studija je:" + this.godinaStudija);
     }
 
     @Override
     public void dohvatiOpisUloge() {
-        System.out.println("Ja sam student :\t" + this.firstName + this.lastName);
+        System.out.println("Ja sam student :\t" + this.firstName + "\t" + this.lastName);
     }
 }
